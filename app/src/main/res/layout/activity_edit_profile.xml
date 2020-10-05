@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"/>
+
+    <Button
+        android:id="@+id/btn_upload_img"
+        android:layout_gravity="center"
+        android:text="Upload"
+        android:layout_margin="@dimen/_8sdp"
+        android:textAllCaps="true"
+        android:textColor="#03DAC5"
+        android:background="@drawable/button_rounded3"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_35sdp"/>
+
+
+    <EditText
+        android:id="@+id/et_first_name"
+        android:hint="First Name"
+        android:padding="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_lastname"
+        android:hint="Last Name"
+        android:padding="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_username"
+        android:hint="Email"
+        android:padding="@dimen/_8sdp"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_dob"
+        android:hint="Date Of Birth"
+        android:padding="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_pass"
+        android:hint="Password"
+        android:padding="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+   <!-- <EditText
+        android:id="@+id/et_username"
+        android:hint="Username"
+        android:padding="@dimen/_8sdp"
+        android:background="@drawable/edittext_rounded"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/edittext_rounded"
+        android:hint="Password"
+        android:padding="@dimen/_8sdp" />
+
+    <EditText
+        android:id="@+id/et_sal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/edittext_rounded"
+        android:hint="Salary Per Hour"
+        android:padding="@dimen/_8sdp" />
+
+    <EditText
+        android:id="@+id/et_job_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/edittext_rounded"
+        android:hint="Job Title"
+        android:padding="@dimen/_8sdp" />
+
+
+    <EditText
+        android:id="@+id/et_company_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/edittext_rounded"
+        android:hint="Company Name"
+        android:padding="@dimen/_8sdp" />-->
+
+    <Button
+        android:id="@+id/bt_update"
+        android:text="Update"
+        android:padding="@dimen/_10sdp"
+        android:textSize="@dimen/_13sdp"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:textColor="#03DAC5"
+        android:background="@drawable/button_rounded3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
+</ScrollView>

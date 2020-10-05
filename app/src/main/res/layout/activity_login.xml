@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:rsb="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/bg">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:id="@+id/tv_home"
+                android:text="Sign IN"
+                android:textSize="25sp"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif-black"
+                android:gravity="left"
+                android:textColor="#55bbdc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/et_uname"
+                android:hint="Email"
+                android:padding="@dimen/_9sdp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/et_pwd"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="@dimen/_9sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:padding="20dp"
+                android:background="@drawable/edittext_rounded"
+                android:entries="@array/role"
+                android:id="@+id/sp_role"/>
+
+            <TextView
+                android:id="@+id/tv_forget_pass"
+                android:text="Forgot Password ?"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:textSize="@dimen/_13sdp"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/bt_signin"
+                android:text="Login"
+                android:padding="@dimen/_11sdp"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="#03DAC5"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/button_rounded3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/bt_signup"
+                android:text="Not a member ? Sign Up"
+                android:padding="@dimen/_11sdp"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="#55bbdc"
+                android:textAllCaps="false"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_driver"
+                android:text="Driver Login"
+                android:visibility="gone"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:textColor="#55bbdc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/bt_signup_fb"
+                android:text="SignUp with Facebook"
+                android:padding="@dimen/_11sdp"
+                android:textSize="@dimen/_13sdp"
+                android:visibility="gone"
+                android:layout_marginBottom="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_70sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:background="@drawable/button_rounded2"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
